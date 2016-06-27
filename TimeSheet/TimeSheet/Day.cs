@@ -8,5 +8,11 @@ namespace TimeSheet
 {
     class Day
     {
+        public DateTime Date { get; set; }
+
+        public float HoursWorked { get; set; }
+
+        //time codes sick, vacation, regular
+        
     }
 }

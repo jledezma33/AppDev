@@ -10,6 +10,7 @@ namespace TimeSheet
     {
         static void Main(string[] args)
         {
+            Employee e = new Employee();
         }
     }
 }

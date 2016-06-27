@@ -1,0 +1,6 @@
+C:\Users\Jesus Ledezma\Desktop\School Stuff\Application Development\creatingfiles\creatingfiles\bin\Debug\creatingfiles.exe.config
+C:\Users\Jesus Ledezma\Desktop\School Stuff\Application Development\creatingfiles\creatingfiles\obj\Debug\creatingfiles.csprojResolveAssemblyReference.cache
+C:\Users\Jesus Ledezma\Desktop\School Stuff\Application Development\creatingfiles\creatingfiles\bin\Debug\creatingfiles.exe
+C:\Users\Jesus Ledezma\Desktop\School Stuff\Application Development\creatingfiles\creatingfiles\bin\Debug\creatingfiles.pdb
+C:\Users\Jesus Ledezma\Desktop\School Stuff\Application Development\creatingfiles\creatingfiles\obj\Debug\creatingfiles.exe
+C:\Users\Jesus Ledezma\Desktop\School Stuff\Application Development\creatingfiles\creatingfiles\obj\Debug\creatingfiles.pdb

@@ -11,6 +11,9 @@ namespace TimeSheet
         static void Main(string[] args)
         {
             Employee e = new Employee();
+
+            DateTime d = new DateTime(2016, 3, 12);
+            
         }
     }
 }

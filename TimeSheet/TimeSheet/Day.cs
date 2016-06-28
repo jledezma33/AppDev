@@ -13,8 +13,26 @@ namespace TimeSheet
         public float HoursWorked { get; set; }
 
         //time codes sick, vacation, regular
-        public enum TimeCodes { sick, vacation, regular}
+        public enum TimeCodes { REGULAR, SICK, VACATION }
 
-        public string sick = TimeCodes.sick.ToString();
+        private DateTime dateTime;
+
+        public Day(DateTime dateTime)
+        {
+            this.dateTime = dateTime;
+        }
+
+        public void Add(TimeCodes timeType, float hours)
+        {
+
+        }
+
+
+        public bool Validate()
+        {
+            return true;
+        }
+
+        
     }
 }

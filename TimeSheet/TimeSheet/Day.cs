@@ -8,6 +8,11 @@ namespace TimeSheet
 {
     public class Day
     {
+        public float TotalHours = 0;
+        public float RegHours = 0;
+        public float SickHours = 0;
+        public float VacHours = 0;
+
         public DateTime Date { get; set; }
 
         public float HoursWorked { get; set; }
@@ -16,6 +21,9 @@ namespace TimeSheet
         public enum TimeCodes { REGULAR, SICK, VACATION }
 
         private DateTime dateTime;
+        public string HoursType { get; set; }
+        public float hours = 8;
+        public TimeCodes value = TimeCodes.REGULAR;
 
         public Day(DateTime dateTime)
         {
@@ -24,15 +32,33 @@ namespace TimeSheet
 
         public void Add(TimeCodes timeType, float hours)
         {
-
+            TotalHours += hours;
+            if (timeType == TimeCodes.REGULAR)
+            {
+                RegHours += hours;
+            }
+            else if (timeType == TimeCodes.SICK)
+            {
+                SickHours += hours;
+            }
+            else if (timeType == TimeCodes.VACATION)
+            {
+                VacHours += hours;
+            }
         }
-
-
         public bool Validate()
         {
-            return true;
+            if (TotalHours <= 24 && TotalHours > 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
-
-        
     }
+
 }
+
+

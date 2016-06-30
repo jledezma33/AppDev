@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TimeSheet
 {
-    class TimeCard
+    public class TimeCard
     {
     }
 }

@@ -30,20 +30,22 @@ namespace TimeSheet
             this.dateTime = dateTime;
         }
 
-        public void Add(TimeCodes timeType, float hours)
+        public void SetHours(TimeCodes timeType, float hours)
         {
-            TotalHours += hours;
-            if (timeType == TimeCodes.REGULAR)
-            {
-                RegHours += hours;
-            }
-            else if (timeType == TimeCodes.SICK)
-            {
-                SickHours += hours;
-            }
-            else if (timeType == TimeCodes.VACATION)
-            {
-                VacHours += hours;
+            if (hours >= 1) {
+                TotalHours += hours;
+                if (timeType == TimeCodes.REGULAR)
+                {
+                    RegHours += hours;
+                }
+                else if (timeType == TimeCodes.SICK)
+                {
+                    SickHours += hours;
+                }
+                else if (timeType == TimeCodes.VACATION)
+                {
+                    VacHours += hours;
+                }
             }
         }
         public bool Validate()

@@ -8,5 +8,10 @@ namespace TimeSheet
 {
     public class TimeCard
     {
+        public float CalculateOvetime()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
+ }

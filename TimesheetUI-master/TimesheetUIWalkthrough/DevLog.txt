@@ -1,0 +1,30 @@
+
+
+done *** Add Timecard starting on Sunday validation
+
+
+done *** Capture the time for a day
+	
+	Regular for a day is now working
+
+done *** Capture time for multiple days
+
+
+*** Capture for full 2 weeks
+
+
+*** Work out that 2 week thing.  Option buttons?
+
+
+
+*** Solve validation on non-numeric input
+
+
+
+*** store the time for sick/vacation
+
+*** output for a day
+
+*** Validation for datatype
+*** Validation for over 24 hours
+

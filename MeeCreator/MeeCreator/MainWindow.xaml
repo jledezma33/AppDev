@@ -1,0 +1,22 @@
+﻿<Window x:Class="MeeCreator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MeeCreator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel x:Name="MainContent" Orientation="Horizontal">
+        <Button>Test 1</Button>
+        <Button>Test 2</Button>
+        <Button>Test 3</Button>
+        <Button>Test 4</Button>
+        <Canvas Width="300" Background="BurlyWood">
+            <Ellipse Height="20" Width="{Binding Value, ElementName=Slider}" Canvas.Top="30" Canvas.Left="50" Fill="Firebrick"></Ellipse>
+            
+        </Canvas>
+        <StackPanel>
+            <Slider x:Name="Slider" Minimum="50" Maximum="100" Width="100"></Slider>
+        </StackPanel>
+    </StackPanel>
+</Window>

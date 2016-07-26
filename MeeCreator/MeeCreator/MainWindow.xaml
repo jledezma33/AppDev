@@ -7,11 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <StackPanel x:Name="MainContent" Orientation="Horizontal">
-        <Button>Test 1</Button>
-        <Button>Test 2</Button>
-        <Button>Test 3</Button>
-        <Button>Test 4</Button>
-        <Canvas Width="300" Background="BurlyWood">
+        <Button Click="Button_Click">Test1</Button>
+        <Button>Test2</Button>
+        <Button>Test3</Button>
+        <Button>Test4</Button>
+        <Canvas x:Name="FaceCanvas" Width="300" Background="BurlyWood">
             <Ellipse Height="20" Width="{Binding Value, ElementName=Slider}" Canvas.Top="30" Canvas.Left="50" Fill="Firebrick"></Ellipse>
             
         </Canvas>

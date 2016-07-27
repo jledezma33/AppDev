@@ -12,8 +12,8 @@
         <Button>Test3</Button>
         <Button>Test4</Button>
         <Canvas x:Name="FaceCanvas" Width="300" Background="BurlyWood">
-            <Ellipse Height="20" Width="{Binding Value, ElementName=Slider}" Canvas.Top="30" Canvas.Left="50" Fill="Firebrick"></Ellipse>
-            
+            <Ellipse Height="20" Width="{Binding Value, ElementName=Slider}" Canvas.Top="30" Canvas.Left="50" Fill="Firebrick"/>
+
         </Canvas>
         <StackPanel>
             <Slider x:Name="Slider" Minimum="50" Maximum="100" Width="100"></Slider>
